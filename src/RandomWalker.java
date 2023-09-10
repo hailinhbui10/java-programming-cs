@@ -6,7 +6,6 @@ public class RandomWalker {
         int step = 1;
         int counter = 0;
         final double PROBABILITY = 0.25;
-        double previousRandom = 0.0;
 
        /* Print the coordinates of the starting points) */
         System.out.println("(" + x + ", " + y + ")");
@@ -28,7 +27,6 @@ public class RandomWalker {
             else
                 y -= step;
             counter++;
-            previousRandom = currentRandom;
             System.out.println("(" + x + ", " + y + ")");
         }
         System.out.print("steps = " + counter);

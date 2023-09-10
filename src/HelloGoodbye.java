@@ -44,7 +44,4 @@ public class HelloGoodbye {
             }
         }
     }
-
-    public static class RandomWalkers {
-    }
 }
