@@ -1,5 +1,3 @@
-package week2;
-
 public class BandMatrix {
     public static void main(String[] args) {
         /* Parse the agrs into integer values */
@@ -10,15 +8,19 @@ public class BandMatrix {
         if ((width >= 0) && (n >= 0)) {
             for (int verticalIndex = 0; verticalIndex < n; verticalIndex++) {
                 for (int horizontalIndex = 0; horizontalIndex < n; horizontalIndex++) {
-                    if (horizontalIndex != 0) System.out.print(" ");
                     if (Math.abs(horizontalIndex - verticalIndex) > width) {
                         System.out.print("0");
                     }
                     else {
                         System.out.print("*");
                     }
+                    if (horizontalIndex < n -1) {
+                        System.out.print("  ");
+                    }
+                    else
+                        System.out.println();
                 }
-                System.out.println();
+
             }
         }
     }

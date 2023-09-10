@@ -1,5 +1,3 @@
-package week1;
-
 public class CMYKtoRGB {
     public static void main(String[] args) {
         /*parse the args of string to value of double*/

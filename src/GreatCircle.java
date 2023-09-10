@@ -1,5 +1,3 @@
-package week1;
-
 public class GreatCircle {
     public static void main(String[] args) {
         // parse the input (in degree) to double type

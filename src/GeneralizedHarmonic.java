@@ -1,5 +1,3 @@
-package week2;
-
 public class GeneralizedHarmonic {
     public static void main(String[] args) {
         int n = Integer.parseInt(args[0]);
